@@ -7,8 +7,8 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Mohammed Althaf",
-    author_email="your.email@example.com",
-    url="https://github.com/yourusername/my_package",  # Repository URL
+    author_email="althafnash14@gmail.com",
+    url="https://github.com/Althafnash/NashUtils.git",  # Repository URL
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
