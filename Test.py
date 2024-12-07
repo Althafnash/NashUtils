@@ -10,4 +10,4 @@ from Utils.PythonPackageUpload import PythonPackageUpload
 
 # PythonPackageCleanUP.run()
 # CreateGitBranch.run()
-# PythonPackageUpload.run()
+PythonPackageUpload.run()
