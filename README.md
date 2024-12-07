@@ -12,13 +12,18 @@ This project provides a Python script for converting CSV files into JSON format.
   
 - Clone the repository:
   ```bash
-git clone https://github.com/yourusername/csv-to-json-converter.git
+      git clone https://github.com/yourusername/csv-to-json-converter.git
 
 - Download depedencies 
   ```bash
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
 - Running the script
   ```bash
-python -m Utils.CSV_to_JSON 
+  from Utils.CSV_to_JSON import csv_to_json
+  
+  Convetor = csv_to_json
+  CSV = 'data.csv'
+  JSON = 'data.json'
+  Convetor.run(CSV,JSON)
 
